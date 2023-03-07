@@ -212,9 +212,9 @@
 }
 
 .btn-dark{
-    color: grey;
-    border: 3px solid grey;
-    font-weight: 1000;
+    color: black;
+    border: 2px solid black;
+    font-weight: 600;
     font-size: larger;
 }
 

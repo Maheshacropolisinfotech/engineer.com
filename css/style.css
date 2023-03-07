@@ -12,8 +12,8 @@
     align-items: center;
 }
 .logo img{
-    width: 180px;
-    margin-left: 70px;
+    width: 96px;
+    margin-left: 82px;
 
 }
 
@@ -52,7 +52,7 @@
 
 .rightnav{
     width: 50%;
-    padding: 0 23px;
+    padding: 0 63px;
     text-align: right;
 }
 
@@ -72,8 +72,8 @@
 }
 
 .firstSection{
-     height: 100vh;
-     background: rgb(0, 0, 0, 0) url('../img/back.jpg');
+     height: 56vh;
+     background: rgb(0, 0, 0, 0) url('../img/back .jpg');
 }
 
 .box-main{
@@ -82,9 +82,9 @@
     align-items: center;
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
-    max-width: 70%;
+    max-width: 83%;
     margin: auto;
-    height: 70%;
+    height: 130%;
 }
 
 .firsthalf{
@@ -117,14 +117,15 @@
 
 .text-small{
     font-size: 20px;
+    margin-top: 20px;
 }
 
 .btn{
     padding: 15px 20px;
     margin: 20px 4px;
-    border: 2px solid white;
+    border: 2px solid cornflowerblue;
     border-radius: 8px;
-    background: none;
+    background-color: cornflowerblue;
     color: white;
     cursor: pointer;
     font-family: 'Ubuntu', sans-serif;
@@ -134,19 +135,39 @@
     
 }
 
+
 .btn:hover{
     background-color: cornflowerblue
 }
 
 
+.btn1{
+    padding: 15px 20px;
+    margin: 20px 4px;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-style:italic;
+    font-size: medium;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+
+}
+
+.btn1:hover{
+    background-color:cornflowerblue;
+}
+
+
 .btn-sm{
-    padding: 10px 25px;
+    padding: 6px 14px;
     vertical-align: middle;
     
 }
 
 .section{
-    height: 500px;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -262,4 +283,34 @@
     display: flex;
     justify-content: center;
     color: white;
+}
+
+.banner-title{
+    min-width: auto;
+    text-align: center;
+    font-size: 45px;
+    line-height: 6rem;
+    margin-bottom: 3.2rem;
+    margin-top: 15%;
+}
+
+.banner-description{
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 2rem;
+        margin-bottom: 3.2rem;
+        min-width: auto;
+        text-align: center;
+        margin-top: -60px;
+}
+
+.herosection{
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    margin-bottom: 3.2rem;
+    min-width: auto;
+    text-align: left;
+    margin-top: -50px;
+    margin-left: 120px;
 }
